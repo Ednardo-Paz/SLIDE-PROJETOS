@@ -27,6 +27,7 @@ export default class Slide {
     this.onEnd = this.onEnd.bind(this);
   }
 
+  
   init() {
     this.bindEvents();
     this.addSlideEvents();
